@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+.solid{
+    height: 200px;
+    width: 200px;
+    /* display: inline-block; */
+}
+.red{
+    background-color: red;
+    position:absolute;
+    left:400px;
+    /* top:400px; */
+}
+.blue{
+    background-color: blue;
+    position:absolute;
+    left:200px;
+    /* top:200px; */
+}
+.yellow{
+    background-color: yellow;
+    /* display: inline-block; */
+    position:absolute;
+    /* top:0px; */
+}
+
+.parent{
+    height:500px;
+    width:500px;
+    position:relative;
+    background-color: yellowgreen;
+}
+.child{
+    height:100px;
+    width:100px;
+    position:absolute; /*if parent is relatvie then uske according will change absolute value */
+    left:230px;
+    background-color: pink;
+}
+
+
